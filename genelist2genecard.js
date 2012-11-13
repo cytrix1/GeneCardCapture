@@ -7,32 +7,22 @@ document.body.appendChild(b);
 //GeneList = ["RB1", "MUC16", "LRP1B", "PKHD1", "TP53", "OR9G1", "MUC17", "APOB", "CHD7", "CTAGE5", "FSIP2", "CSMD3", "DNHD1", "HERC2", "PRAMEF2", "ANKRD30B", "DNAH5", "DNAH7", "DTNBP1", "LAMA1", "PCDH15", "ZNF326", "NOTCH2NL", "OR6N2", "ARSD", "COL12A1", "NBPF10", "PRAMEF1", "PTEN", "SELP", "SGCZ", "USP6", "ACIN1", "ADAM12", "ADAMTS12", "AHNAK", "AK5", "AMMECR1L", "ANKRD20A1", "ANKS1B", "AP2B1", "ATP8B1", "BAGE2", "BOD1L", "C5orf20", "C6", "C7orf72", "C9orf51", "C9orf79", "CCDC88A", "CCNYL2", "CD1C", "CDH12", "CDH9", "CDKN3", "CFHR2", "CHD8", "CHFR", "CNOT1", "CNTN5", "COL5A2", "CREBBP", "CXorf22", "CYTIP", "DCAF4L2", "DDC", "DGKB", "DLGAP2", "DMD", "DSC2", "EARS2", "EPHA5", "EPHA7", "FAT4", "FREM2", "FRG1", "GABRG2", "GABRQ", "GALNT13", "GBP6", "GFI1B", "GLI1", "GPRC6A", "HCN1", "IDO1", "IFRD1", "IRGM", "KCNH7", "KCNQ3", "KIAA1586", "KIF6", "LAMA2", "LAMC1", "LY75-CD302", "MAGEC1", "MAN2A1", "MAP1A", "MEOX2", "MGAT4C", "MKI67", "MRPL39", "MUT", "MYO1E", "NAV3", "NEFH", "NWD1", "NXPH1", "ODZ1", "ODZ3", "OR14C36", "OR2A14", "OR2C3", "OR2T11", "OR4N4", "OR4Q3", "OR4X2", "OR6C1", "OR8J3", "ORC3", "OSBPL5", "OTOF", "PAH", "PEX12", "PIAS2", "PPP1CC", "PRKDC", "QRICH2", "RDX", "REST", "RGS7", "RIF1", "RIMS1", "RNF213", "RP1", "S100A7A", "SAGE1", "SCN7A", "SFMBT2", "SIRPD", "SNTG2", "SPACA1", "SPHKAP", "STAB2", "TAS2R20", "TG", "TIAM1", "TNFAIP8L3", "TRIM58", "TRIM63", "TRIP11", "TTF1", "UNC5D", "USP9X", "XIRP2", "XRN2", "ZC3H6", "ZNF208", "ZNF429", "ZNF521", "ZNF608", "ZNF83", "FAM120B", "TJP1", "ABCA4", "ABCA6", "ANKRD11", "AQP7", "CBLC", "CELSR3", "CLCN5", "CNGB3", "CRB1", "CXorf57", "DISP1", "FAM50B", "HECW2", "IQGAP2", "LAMC2", "LRRTM4", "NEDD4L", "OBSCN", "OR10K1", "OR4M1", "OR51Q1", "PCLO", "PER3", "PIGN", "PRAMEF12", "SON", "TEX15", "UGT1A5", "USP36", "ZFHX3", "ZNF292", "ZNF382", "ZNF729", "A1CF", "AADAT", "AASDH"];
 //GeneList = ["RB1", "MUC16", "LRP1B", "PKHD1", "TP53", "OR9G1", "MUC17", "APOB", "CHD7", "CTAGE5", "FSIP2", "CSMD3", "DNHD1", "HERC2", "PRAMEF2", "ANKRD30B", "DNAH5", "DNAH7", "DTNBP1", "LAMA1", "PCDH15", "ZNF326", "NOTCH2NL", "OR6N2", "ARSD", "COL12A1", "NBPF10", "PRAMEF1", "PTEN", "SELP", "SGCZ", "USP6", "ACIN1", "ADAM12", "ADAMTS12", "AHNAK", "AK5", "AMMECR1L", "ANKRD20A1", "ANKS1B", "AP2B1", "ATP8B1", "BAGE2", "BOD1L", "C5orf20", "C6", "C7orf72", "C9orf51", "C9orf79", "CCDC88A", "CCNYL2", "CD1C", "CDH12", "CDH9", "CDKN3", "CFHR2", "CHD8", "CHFR", "CNOT1", "CNTN5", "COL5A2", "CREBBP", "CXorf22", "CYTIP", "DCAF4L2", "DDC", "DGKB", "DLGAP2", "DMD", "DSC2", "EARS2", "EPHA5", "EPHA7", "FAT4", "FREM2", "FRG1", "GABRG2", "GABRQ", "GALNT13", "GBP6", "GFI1B", "GLI1", "GPRC6A", "HCN1", "IDO1", "IFRD1", "IRGM", "KCNH7", "KCNQ3", "KIAA1586", "KIF6", "LAMA2", "LAMC1", "LY75-CD302", "MAGEC1", "MAN2A1", "MAP1A", "MEOX2", "MGAT4C"];
 //GeneList = ["RB1", "MUC16", "LRP1B", "PKHD1", "TP53", "OR9G1", "MUC17", "APOB", "CHD7", "CTAGE5", "FSIP2", "CSMD3", "DNHD1", "HERC2", "PRAMEF2", "ANKRD30B", "DNAH5", "DNAH7", "DTNBP1", "LAMA1", "PCDH15", "ZNF326", "NOTCH2NL", "OR6N2", "ARSD", "COL12A1", "NBPF10", "PRAMEF1", "PTEN", "SELP", "SGCZ", "USP6", "ACIN1", "ADAM12"];
-//GeneList = ["RB1", "MUC16", "LRP1B", "PKHD1", "TP53", "OR9G1", "MUC17", "APOB", "CHD7", "CTAGE5", "FSIP2", "CSMD3", "DNHD1", "HERC2"]
-GeneList = ["RB1", "TP53"];
-
-//for (var i = 0; i < GeneList.length; ++i) {
-//  var di = document.createElement('div');
-//  di.id = 'di' + i;
-//  di.innerHTML = "<h2>" + GeneList[i] + "</h2>";
-//  document.body.appendChild(di);
-//}
+GeneList = ["RB1", "MUC16", "LRP1B", "PKHD1", "TP53", "OR9G1", "MUC17", "APOB", "CHD7", "CTAGE5", "FSIP2", "CSMD3", "DNHD1", "HERC2"]
 
 var myWin = new Array();
 for (var i=0; i < GeneList.length; ++i) {
   myWin[i] = window.open("http://www.genecards.org");
-  }
+}
   
 
 $(document).ready(function() {
   $("#b").click(function(){
     for (var i=0; i < GeneList.length; ++i) {
-      //$("#di" + i).load("/cgi-bin/carddisp.pl?gene=" + GeneList[i]);
-	  //window.open("http://www.genecards.org/cgi-bin/carddisp.pl?gene=" + GeneList[i]);
 	  mydoc = myWin[i].document;
 	  var di = mydoc.createElement('div');
-	  di.id = 'di' + i;
+	  di.id = 'di';
 	  mydoc.body.appendChild(di);
-	  $("#di" + i, mydoc).load("/cgi-bin/carddisp.pl?gene=" + GeneList[i]);
+	  $("#di", mydoc).load("/cgi-bin/carddisp.pl?gene=" + GeneList[i]);
     }
   });
 });
